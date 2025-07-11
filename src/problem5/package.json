@@ -1,0 +1,27 @@
+{
+  "name": "problem5",
+  "version": "1.0.0",
+  "description": "```bash npm install npx prisma generate npx prisma migrate dev --name init npm run dev ```",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/body-parser": "^1.19.6",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.13",
+    "prisma": "^6.11.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.11.1",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
